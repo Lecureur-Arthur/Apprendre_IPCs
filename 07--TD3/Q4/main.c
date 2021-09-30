@@ -45,15 +45,13 @@ int main(int argc, char** argv) {
     // P1
     pidP2 = fork();
     if(pidP2 == 0) { // P2
-        pidP2 = getpid();
-        printf("process secondaire P2, pid %d\n",pidP2);
         
         pidP3 = fork();
         if(pidP3 == 0) {     // P3
             
             sleep(2);
             // envoyer SIGUSR1 a P2
-            kill(pidP2, SIGUSR1);
+            kill(getppid(), SIGUSR1);
             
         } else {             // P2
             
