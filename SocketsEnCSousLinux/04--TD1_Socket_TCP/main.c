@@ -61,18 +61,8 @@ int main(int argc, char** argv) {
     
     //Init de la struct pour communiquer avec le serveur
     infosServeur.sin_family = AF_INET;
-    
-/*
-    printf("Donnez le port : ");
-    scanf("%d",&port);
-*/
     infosServeur.sin_port = htons(7777); // Port dans ordre serveur (host to network short)
-    
-/*
-    printf("Donnez l'adrese reseaux : ");
-    scanf("%s",tab);
-*/
-    infosServeur.sin_addr.s_addr = inet_addr("172.18.58.150");
+    infosServeur.sin_addr.s_addr = inet_addr("172.18.58.93");
 
     /*-------------------------------------------------------------------------------------------------*/
     //Envoyer un Int
@@ -132,7 +122,7 @@ int main(int argc, char** argv) {
     
     /*-------------------------------------------------------------------------------------------------*/
     //Envoyer une date
-    /*
+    
    datePerso date;
     date.annee = 2021;
     date.jour = 13;
