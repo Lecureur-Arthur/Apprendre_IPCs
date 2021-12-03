@@ -9,19 +9,19 @@ CND_DISTDIR=dist
 # Debug configuration
 CND_PLATFORM_Debug=GNU-Linux
 CND_ARTIFACT_DIR_Debug=dist/Debug/GNU-Linux
-CND_ARTIFACT_NAME_Debug=td_threads
-CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/td_threads
+CND_ARTIFACT_NAME_Debug=04--td_threads
+CND_ARTIFACT_PATH_Debug=dist/Debug/GNU-Linux/04--td_threads
 CND_PACKAGE_DIR_Debug=dist/Debug/GNU-Linux/package
-CND_PACKAGE_NAME_Debug=tdthreads.tar
-CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/tdthreads.tar
+CND_PACKAGE_NAME_Debug=04--tdthreads.tar
+CND_PACKAGE_PATH_Debug=dist/Debug/GNU-Linux/package/04--tdthreads.tar
 # Release configuration
 CND_PLATFORM_Release=GNU-Linux
 CND_ARTIFACT_DIR_Release=dist/Release/GNU-Linux
-CND_ARTIFACT_NAME_Release=td_threads
-CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux/td_threads
+CND_ARTIFACT_NAME_Release=04--td_threads
+CND_ARTIFACT_PATH_Release=dist/Release/GNU-Linux/04--td_threads
 CND_PACKAGE_DIR_Release=dist/Release/GNU-Linux/package
-CND_PACKAGE_NAME_Release=tdthreads.tar
-CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux/package/tdthreads.tar
+CND_PACKAGE_NAME_Release=04--tdthreads.tar
+CND_PACKAGE_PATH_Release=dist/Release/GNU-Linux/package/04--tdthreads.tar
 #
 # include compiler specific variables
 #
